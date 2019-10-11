@@ -1,0 +1,12 @@
+<div class="convertcomp">
+   <h3>Roman Number conversion</h3>
+   <div class="form-group">
+      <label>Enter Value
+         <p class="special-note">*(Any number between 1 to 9999 )</p>
+      </label>
+      <input type="number" class="form-control col-md-4" [(ngModel)]="convertNumber">
+   </div>
+
+   <button (click)="convertToRoman()" class="btn btn-info">Convert</button>
+   <div class="answer" *ngIf="finalresult">Answer: {{finalresult}}</div>
+</div>
