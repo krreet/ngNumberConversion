@@ -1,5 +1,5 @@
 # Objective
-This Project is written for sample conversion of Normal Number to Roman Number and vice versa
+This Project is written for sample conversion of Arabic Number to Roman Number and vice versa
 
 # Steps
 1)-run ```npm install```
