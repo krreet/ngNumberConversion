@@ -10,3 +10,10 @@
     font-size: 12px;
     font-style: italic
 }
+
+sup.reference {
+    unicode-bidi: isolate;
+    white-space: nowrap;
+    font-weight: normal;
+    font-style: normal;
+}
